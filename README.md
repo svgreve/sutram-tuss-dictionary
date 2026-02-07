@@ -15,7 +15,7 @@ This repository is designed to be consumed by the **Medical Exam Migration Skill
 ```
 Hospital Portal                    Sutram
 ┌──────────────┐                  ┌──────────────────────────────────────┐
-│ "Usg Abdome  │   normalize()   │ Dr. Kildare/               │
+│ "Usg Abdome  │   normalize()    │ Dr. Kildare/                         │
 │  Total"      │ ───────────────► │   Ultrassonografia de abdome total/  │
 │              │   TUSS 40901122  │     2024-12-12/                      │
 │ "USG ABDOME  │ ───────────────► │       000_laudo.pdf                  │
