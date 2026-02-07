@@ -1,0 +1,25 @@
+# Configuração do Medical Exam Migration Skill
+# Copie este arquivo para: ~/.claude/skills/medical-exam-migration/config.yaml
+# e preencha com suas credenciais do Sutram.
+
+sutram:
+  endpoint: https://sutram.io/mcp
+  project_key: "sk_proj_..."   # Sutram → Configurações → Integrações → MCP
+  user_key: "sk_user_..."      # Sutram → Configurações → Integrações → MCP
+
+preferences:
+  path_template: "{medico}/{exame}/{data}"
+  date_format: "YYYY-MM-DD"
+  default_portal: haoc
+
+# Dicionário TUSS centralizado (catálogo oficial ANS)
+tuss_dictionary:
+  remote_url: "https://raw.githubusercontent.com/svgreve/sutram-tuss-dictionary/main/tuss_exames_comuns.json"
+  cache_ttl_hours: 24
+  fallback_local: true
+
+# Contribuições para o dicionário comunitário
+contributions:
+  enabled: false
+  github_token: ""  # Opcional: token GitHub para submeter novos mapeamentos
+  auto_submit: true
