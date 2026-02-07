@@ -1,0 +1,2440 @@
+{
+  "_meta": {
+    "source": "TUSS - Terminologia Unificada da Saúde Suplementar (ANS/COPISS)",
+    "tabela": "22 - Procedimentos e Eventos em Saúde",
+    "version": "2025-05",
+    "download_oficial": "https://www.ans.gov.br/arquivos/extras/tiss/Padrao_TISS_Representacao_de_Conceitos_em_Saude_202505.zip",
+    "nota": "Subset curado dos exames mais frequentes em portais hospitalares. Para a tabela completa, baixe o ZIP oficial da ANS.",
+    "total_registros": 220
+  },
+  "exames": [
+    {
+      "codigo_tuss": "40301052",
+      "nome_padrao": "Hemograma completo",
+      "categoria": "Hematologia",
+      "aliases": [
+        "HMG",
+        "HMG COMPLETO",
+        "HEMOGRAMA",
+        "HEMOGRAMA COMPL",
+        "HEMOGRAMA COMPLETO C/ PLAQUETAS",
+        "HEMOGRAMA C/ PLAQUETAS",
+        "CBC"
+      ]
+    },
+    {
+      "codigo_tuss": "40301630",
+      "nome_padrao": "Glicose (dosagem no sangue)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "GLICOSE",
+        "GLICEMIA",
+        "GLICEMIA JEJUM",
+        "GLICOSE JEJUM",
+        "GLICEMIA DE JEJUM",
+        "GLI",
+        "GLUCOSE"
+      ]
+    },
+    {
+      "codigo_tuss": "40301605",
+      "nome_padrao": "Hemoglobina glicada (HbA1c)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "HBA1C",
+        "HEMOGLOBINA GLICADA",
+        "HB GLICADA",
+        "A1C",
+        "GLIC. HEMOGLOBINA",
+        "HEMOGLOB GLICADA"
+      ]
+    },
+    {
+      "codigo_tuss": "40302016",
+      "nome_padrao": "Colesterol total",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "COLESTEROL",
+        "COL TOTAL",
+        "COLESTEROL T",
+        "CT"
+      ]
+    },
+    {
+      "codigo_tuss": "40302059",
+      "nome_padrao": "Colesterol HDL",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "HDL",
+        "HDL-C",
+        "HDL COLESTEROL",
+        "COL HDL",
+        "BOM COLESTEROL"
+      ]
+    },
+    {
+      "codigo_tuss": "40302067",
+      "nome_padrao": "Colesterol LDL (dosagem ou cálculo)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "LDL",
+        "LDL-C",
+        "LDL COLESTEROL",
+        "COL LDL"
+      ]
+    },
+    {
+      "codigo_tuss": "40302580",
+      "nome_padrao": "Triglicerídeos",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "TRIGLICERIDES",
+        "TRIGLICÉRIDES",
+        "TRIGL",
+        "TG",
+        "TRIGLICÉRIDEOS",
+        "TRIGLICERIDEOS"
+      ]
+    },
+    {
+      "codigo_tuss": "40301150",
+      "nome_padrao": "Creatinina",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "CREAT",
+        "CREATININA SERICA",
+        "CREATININA SÉRICA",
+        "CR"
+      ]
+    },
+    {
+      "codigo_tuss": "40302610",
+      "nome_padrao": "Ureia",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "URÉIA",
+        "UREIA SERICA",
+        "URÉIA SÉRICA",
+        "BUN"
+      ]
+    },
+    {
+      "codigo_tuss": "40301036",
+      "nome_padrao": "Ácido úrico",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "AC URICO",
+        "ÁCIDO ÚRICO",
+        "AC. ÚRICO",
+        "URATO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301508",
+      "nome_padrao": "TGO (AST - Aspartato aminotransferase)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "TGO",
+        "AST",
+        "ASPARTATO AMINOTRANSFERASE",
+        "TRANSAMINASE OXALACETICA",
+        "SGOT"
+      ]
+    },
+    {
+      "codigo_tuss": "40301516",
+      "nome_padrao": "TGP (ALT - Alanina aminotransferase)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "TGP",
+        "ALT",
+        "ALANINA AMINOTRANSFERASE",
+        "TRANSAMINASE PIRUVICA",
+        "SGPT"
+      ]
+    },
+    {
+      "codigo_tuss": "40301575",
+      "nome_padrao": "Gama-glutamil transferase (Gama GT)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "GAMA GT",
+        "GGT",
+        "GAMA-GT",
+        "GAMA GLUTAMIL",
+        "GAMAGLUTAMILTRANSFERASE"
+      ]
+    },
+    {
+      "codigo_tuss": "40301567",
+      "nome_padrao": "Fosfatase alcalina",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "FOSF ALCALINA",
+        "FA",
+        "FOSFATASE ALC",
+        "ALP"
+      ]
+    },
+    {
+      "codigo_tuss": "40301095",
+      "nome_padrao": "Bilirrubinas totais e frações",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "BILIRRUBINAS",
+        "BILIRRUBINA TOTAL",
+        "BT",
+        "BILIRRUBINA T E F",
+        "BILIRRUBINAS T/F"
+      ]
+    },
+    {
+      "codigo_tuss": "40301354",
+      "nome_padrao": "Proteínas totais e frações (albumina e globulina)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "PROTEINAS TOTAIS",
+        "PROT TOTAIS",
+        "ALBUMINA E GLOBULINA",
+        "PTF"
+      ]
+    },
+    {
+      "codigo_tuss": "40301460",
+      "nome_padrao": "Sódio",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "NA",
+        "NA+",
+        "SODIO SERICO",
+        "NATREMIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301370",
+      "nome_padrao": "Potássio",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "K",
+        "K+",
+        "POTASSIO SERICO",
+        "CALEMIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301117",
+      "nome_padrao": "Cálcio",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "CA",
+        "CA++",
+        "CALCIO SERICO",
+        "CALCEMIA",
+        "CALCIO TOTAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40301559",
+      "nome_padrao": "Ferro sérico",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "FERRO",
+        "FE",
+        "FERRO SERICO",
+        "FERRO SÉRICO",
+        "SIDEREMIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301541",
+      "nome_padrao": "Ferritina",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "FERRIT",
+        "FERRITINA SERICA",
+        "FERRITINA SÉRICA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301583",
+      "nome_padrao": "Transferrina",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "TRANSF",
+        "TRANSFERRINA SERICA"
+      ]
+    },
+    {
+      "codigo_tuss": "40302407",
+      "nome_padrao": "TSH (Hormônio tireoestimulante)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "TSH",
+        "TSH ULTRA",
+        "TSH ULTRASSENSIVEL",
+        "TSH ULTRA SENSÍVEL",
+        "TIREOESTIMULANTE"
+      ]
+    },
+    {
+      "codigo_tuss": "40302415",
+      "nome_padrao": "T4 livre",
+      "categoria": "Hormônios",
+      "aliases": [
+        "T4L",
+        "T4 LIVRE",
+        "TIROXINA LIVRE",
+        "T4L LIVRE",
+        "FREE T4"
+      ]
+    },
+    {
+      "codigo_tuss": "40302423",
+      "nome_padrao": "T3 (Triiodotironina)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "T3",
+        "T3 TOTAL",
+        "TRIIODOTIRONINA",
+        "T3 LIVRE"
+      ]
+    },
+    {
+      "codigo_tuss": "40316360",
+      "nome_padrao": "Vitamina D (25-hidroxi)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "VIT D",
+        "VITAMINA D",
+        "25 OH VIT D",
+        "25-HIDROXIVITAMINA D",
+        "CALCIFEDIOL",
+        "25OH D3"
+      ]
+    },
+    {
+      "codigo_tuss": "40316378",
+      "nome_padrao": "Vitamina B12",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "VIT B12",
+        "B12",
+        "CIANOCOBALAMINA",
+        "COBALAMINA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301001",
+      "nome_padrao": "Ácido fólico",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "FOLATO",
+        "AC FOLICO",
+        "ÁCIDO FÓLICO",
+        "VIT B9"
+      ]
+    },
+    {
+      "codigo_tuss": "40304361",
+      "nome_padrao": "PSA total (Antígeno prostático específico)",
+      "categoria": "Marcadores tumorais",
+      "aliases": [
+        "PSA",
+        "PSA TOTAL",
+        "ANTIGENO PROSTATICO",
+        "ANTÍGENO PROSTÁTICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40304370",
+      "nome_padrao": "PSA livre",
+      "categoria": "Marcadores tumorais",
+      "aliases": [
+        "PSA L",
+        "PSA LIVRE",
+        "FREE PSA"
+      ]
+    },
+    {
+      "codigo_tuss": "40304167",
+      "nome_padrao": "CEA (Antígeno carcinoembrionário)",
+      "categoria": "Marcadores tumorais",
+      "aliases": [
+        "CEA",
+        "ANTIGENO CARCINOEMBRIONARIO",
+        "ANTÍGENO CARCINOEMBRIONÁRIO"
+      ]
+    },
+    {
+      "codigo_tuss": "40304116",
+      "nome_padrao": "CA 125",
+      "categoria": "Marcadores tumorais",
+      "aliases": [
+        "CA125",
+        "CA-125"
+      ]
+    },
+    {
+      "codigo_tuss": "40304124",
+      "nome_padrao": "CA 19-9",
+      "categoria": "Marcadores tumorais",
+      "aliases": [
+        "CA19-9",
+        "CA 199",
+        "CA19.9"
+      ]
+    },
+    {
+      "codigo_tuss": "40304132",
+      "nome_padrao": "CA 15-3",
+      "categoria": "Marcadores tumorais",
+      "aliases": [
+        "CA15-3",
+        "CA 153",
+        "CA15.3"
+      ]
+    },
+    {
+      "codigo_tuss": "40304302",
+      "nome_padrao": "AFP (Alfa-fetoproteína)",
+      "categoria": "Marcadores tumorais",
+      "aliases": [
+        "AFP",
+        "ALFA FETOPROTEINA",
+        "ALFAFETOPROTEÍNA"
+      ]
+    },
+    {
+      "codigo_tuss": "40302300",
+      "nome_padrao": "Insulina",
+      "categoria": "Hormônios",
+      "aliases": [
+        "INSULINA BASAL",
+        "INSULINEMIA",
+        "INS"
+      ]
+    },
+    {
+      "codigo_tuss": "40302326",
+      "nome_padrao": "Cortisol",
+      "categoria": "Hormônios",
+      "aliases": [
+        "CORTISOL BASAL",
+        "CORTISOL SERICO",
+        "CORTISOL SÉRICO",
+        "CORTISOL MATINAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40302334",
+      "nome_padrao": "Testosterona total",
+      "categoria": "Hormônios",
+      "aliases": [
+        "TESTOSTERONA",
+        "TESTO TOTAL",
+        "TESTOST",
+        "TESTO"
+      ]
+    },
+    {
+      "codigo_tuss": "40302342",
+      "nome_padrao": "Estradiol",
+      "categoria": "Hormônios",
+      "aliases": [
+        "E2",
+        "ESTRADIOL SERICO",
+        "17-BETA ESTRADIOL"
+      ]
+    },
+    {
+      "codigo_tuss": "40302350",
+      "nome_padrao": "Progesterona",
+      "categoria": "Hormônios",
+      "aliases": [
+        "PROGEST",
+        "P4"
+      ]
+    },
+    {
+      "codigo_tuss": "40302369",
+      "nome_padrao": "FSH (Hormônio folículo-estimulante)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "FSH",
+        "FOLICULO ESTIMULANTE",
+        "FOLÍCULO ESTIMULANTE"
+      ]
+    },
+    {
+      "codigo_tuss": "40302377",
+      "nome_padrao": "LH (Hormônio luteinizante)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "LH",
+        "LUTEINIZANTE",
+        "HORMONIO LUTEINIZANTE"
+      ]
+    },
+    {
+      "codigo_tuss": "40302385",
+      "nome_padrao": "Prolactina",
+      "categoria": "Hormônios",
+      "aliases": [
+        "PRL",
+        "PROLACT"
+      ]
+    },
+    {
+      "codigo_tuss": "40302393",
+      "nome_padrao": "PTH (Paratormônio)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "PTH",
+        "PARATORMONIO",
+        "PARATORMÔNIO",
+        "PTH INTACTO"
+      ]
+    },
+    {
+      "codigo_tuss": "40302288",
+      "nome_padrao": "GH (Hormônio do crescimento)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "GH",
+        "HGH",
+        "HORMONIO CRESCIMENTO",
+        "SOMATOTROPINA"
+      ]
+    },
+    {
+      "codigo_tuss": "40302296",
+      "nome_padrao": "IGF-1 (Somatomedina C)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "IGF1",
+        "IGF-1",
+        "SOMATOMEDINA",
+        "SOMATOMEDINA C"
+      ]
+    },
+    {
+      "codigo_tuss": "40302270",
+      "nome_padrao": "DHEA-S (Sulfato de deidroepiandrosterona)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "DHEA",
+        "DHEA-S",
+        "DHEAS",
+        "SDHEA",
+        "S-DHEA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301214",
+      "nome_padrao": "PCR (Proteína C reativa)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "PCR",
+        "PROTEINA C REATIVA",
+        "PCR ULTRA",
+        "PCR ULTRASSENSIVEL",
+        "CRP",
+        "HS-CRP"
+      ]
+    },
+    {
+      "codigo_tuss": "40301591",
+      "nome_padrao": "VHS (Velocidade de hemossedimentação)",
+      "categoria": "Hematologia",
+      "aliases": [
+        "VHS",
+        "HEMOSSEDIMENTACAO",
+        "ESR",
+        "VELOCIDADE SEDIMENTACAO"
+      ]
+    },
+    {
+      "codigo_tuss": "40304540",
+      "nome_padrao": "Fator reumatoide",
+      "categoria": "Imunologia",
+      "aliases": [
+        "FR",
+        "FATOR REUMATOIDE",
+        "FATOR REUMATÓIDE",
+        "RF"
+      ]
+    },
+    {
+      "codigo_tuss": "40304558",
+      "nome_padrao": "FAN (Fator antinuclear)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "FAN",
+        "ANA",
+        "FATOR ANTINUCLEAR",
+        "ANTICORPO ANTINUCLEAR"
+      ]
+    },
+    {
+      "codigo_tuss": "40304680",
+      "nome_padrao": "Anti-CCP",
+      "categoria": "Imunologia",
+      "aliases": [
+        "ANTI CCP",
+        "ANTICORPO ANTI PEPTIDEO CITRULINADO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301419",
+      "nome_padrao": "Tempo de protrombina (TP/INR)",
+      "categoria": "Coagulação",
+      "aliases": [
+        "TP",
+        "TAP",
+        "INR",
+        "TEMPO PROTROMBINA",
+        "COAGULOGRAMA TP"
+      ]
+    },
+    {
+      "codigo_tuss": "40301427",
+      "nome_padrao": "Tempo de tromboplastina parcial ativada (TTPa)",
+      "categoria": "Coagulação",
+      "aliases": [
+        "TTPA",
+        "PTT",
+        "KPTT",
+        "TEMPO TROMBOPLASTINA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301494",
+      "nome_padrao": "Fibrinogênio",
+      "categoria": "Coagulação",
+      "aliases": [
+        "FIBRINOGENIO",
+        "FIBRINOGÊNIO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301486",
+      "nome_padrao": "D-dímero",
+      "categoria": "Coagulação",
+      "aliases": [
+        "DIMERO D",
+        "D DIMERO",
+        "D-DÍMERO",
+        "DDIMERO"
+      ]
+    },
+    {
+      "codigo_tuss": "40311040",
+      "nome_padrao": "Urina tipo I (EAS - Elementos anormais e sedimento)",
+      "categoria": "Urinálise",
+      "aliases": [
+        "EAS",
+        "URINA I",
+        "URINA TIPO 1",
+        "URINA TIPO I",
+        "URINA ROTINA",
+        "SUMARIO URINA",
+        "PARCIAL URINA",
+        "URINA 1"
+      ]
+    },
+    {
+      "codigo_tuss": "40311058",
+      "nome_padrao": "Urocultura (cultura de urina)",
+      "categoria": "Microbiologia",
+      "aliases": [
+        "UROCULTURA",
+        "CULTURA URINA",
+        "URINOCULTURA"
+      ]
+    },
+    {
+      "codigo_tuss": "40311066",
+      "nome_padrao": "Urina de 24 horas (proteinúria/creatinina)",
+      "categoria": "Urinálise",
+      "aliases": [
+        "URINA 24H",
+        "URINA 24 HORAS",
+        "PROTEINURIA 24H",
+        "CLEARANCE CREATININA"
+      ]
+    },
+    {
+      "codigo_tuss": "40311015",
+      "nome_padrao": "Parasitológico de fezes (EPF)",
+      "categoria": "Parasitologia",
+      "aliases": [
+        "EPF",
+        "PARASITOLOGICO",
+        "PARASITOLÓGICO",
+        "PROTOPARASITOLOGICO",
+        "PPF",
+        "FEZES EPF"
+      ]
+    },
+    {
+      "codigo_tuss": "40311023",
+      "nome_padrao": "Pesquisa de sangue oculto nas fezes",
+      "categoria": "Análises clínicas",
+      "aliases": [
+        "SANGUE OCULTO",
+        "SOF",
+        "PESQ SANGUE OCULTO",
+        "FOBT"
+      ]
+    },
+    {
+      "codigo_tuss": "40306089",
+      "nome_padrao": "Sorologia para HIV (Anti-HIV)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "HIV",
+        "ANTI HIV",
+        "ANTI-HIV",
+        "ELISA HIV",
+        "HIV 1 E 2"
+      ]
+    },
+    {
+      "codigo_tuss": "40306097",
+      "nome_padrao": "Sorologia para Hepatite B (HBsAg)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "HBSAG",
+        "HEPATITE B",
+        "HEP B",
+        "ANTIGENO HEPATITE B"
+      ]
+    },
+    {
+      "codigo_tuss": "40306100",
+      "nome_padrao": "Sorologia para Hepatite B (Anti-HBs)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "ANTI HBS",
+        "ANTI-HBS",
+        "ANTICORPO HEPATITE B"
+      ]
+    },
+    {
+      "codigo_tuss": "40306119",
+      "nome_padrao": "Sorologia para Hepatite C (Anti-HCV)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "HCV",
+        "ANTI HCV",
+        "ANTI-HCV",
+        "HEPATITE C",
+        "HEP C"
+      ]
+    },
+    {
+      "codigo_tuss": "40306127",
+      "nome_padrao": "VDRL",
+      "categoria": "Sorologia",
+      "aliases": [
+        "VDRL",
+        "SIFILIS",
+        "SÍFILIS",
+        "RPR",
+        "LUES"
+      ]
+    },
+    {
+      "codigo_tuss": "40306135",
+      "nome_padrao": "Sorologia para Toxoplasmose (IgG e IgM)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "TOXOPLASMOSE",
+        "TOXO IGG",
+        "TOXO IGM",
+        "TOXOPLASMA"
+      ]
+    },
+    {
+      "codigo_tuss": "40306143",
+      "nome_padrao": "Sorologia para Rubéola (IgG e IgM)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "RUBEOLA",
+        "RUBÉOLA",
+        "RUBEOLA IGG",
+        "RUBEOLA IGM"
+      ]
+    },
+    {
+      "codigo_tuss": "40306151",
+      "nome_padrao": "Sorologia para Citomegalovírus (IgG e IgM)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "CMV",
+        "CITOMEGALOVIRUS",
+        "CITOMEGALOVÍRUS",
+        "CMV IGG",
+        "CMV IGM"
+      ]
+    },
+    {
+      "codigo_tuss": "40306160",
+      "nome_padrao": "Sorologia para Dengue",
+      "categoria": "Sorologia",
+      "aliases": [
+        "DENGUE",
+        "DENGUE IGG",
+        "DENGUE IGM",
+        "NS1 DENGUE",
+        "SOROL DENGUE"
+      ]
+    },
+    {
+      "codigo_tuss": "40301621",
+      "nome_padrao": "Curva glicêmica (TOTG - Teste oral de tolerância à glicose)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "TOTG",
+        "CURVA GLICEMICA",
+        "CURVA GLICÊMICA",
+        "GTT",
+        "TESTE TOLERANCIA GLICOSE"
+      ]
+    },
+    {
+      "codigo_tuss": "40301680",
+      "nome_padrao": "Magnésio",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "MG",
+        "MAGNESIO SERICO",
+        "MAGNÉSIO SÉRICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301699",
+      "nome_padrao": "Fósforo",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "P",
+        "FOSFORO",
+        "FÓSFORO",
+        "FOSFORO SERICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301702",
+      "nome_padrao": "Zinco",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "ZN",
+        "ZINCO SERICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301710",
+      "nome_padrao": "Cobre",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "CU",
+        "COBRE SERICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301389",
+      "nome_padrao": "Reticulócitos",
+      "categoria": "Hematologia",
+      "aliases": [
+        "RETIC",
+        "RETICULOCITOS",
+        "RETICULÓCITOS",
+        "CONTAGEM RETICULOCITOS"
+      ]
+    },
+    {
+      "codigo_tuss": "40301303",
+      "nome_padrao": "Plaquetas (contagem)",
+      "categoria": "Hematologia",
+      "aliases": [
+        "PLAQUETAS",
+        "CONTAGEM PLAQUETAS",
+        "PLT"
+      ]
+    },
+    {
+      "codigo_tuss": "40301273",
+      "nome_padrao": "Leucograma",
+      "categoria": "Hematologia",
+      "aliases": [
+        "LEUCOGRAMA",
+        "CONTAGEM LEUCOCITOS",
+        "WBC"
+      ]
+    },
+    {
+      "codigo_tuss": "40302211",
+      "nome_padrao": "Beta-HCG (Gonadotrofina coriônica)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "BHCG",
+        "BETA HCG",
+        "B-HCG",
+        "HCG",
+        "TESTE GRAVIDEZ SANGUE"
+      ]
+    },
+    {
+      "codigo_tuss": "40301222",
+      "nome_padrao": "CPK (Creatinoquinase)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "CPK",
+        "CK",
+        "CREATINOQUINASE",
+        "CREATINOFOSFOQUINASE",
+        "CK TOTAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40301230",
+      "nome_padrao": "CK-MB (Fração MB da creatinoquinase)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "CKMB",
+        "CK-MB",
+        "CK MB",
+        "MB"
+      ]
+    },
+    {
+      "codigo_tuss": "40301249",
+      "nome_padrao": "Troponina",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "TROPONINA I",
+        "TROPONINA T",
+        "TROP",
+        "TROPONINA ULTRA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301257",
+      "nome_padrao": "BNP (Peptídeo natriurético cerebral)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "BNP",
+        "NT-PROBNP",
+        "PRO-BNP",
+        "PEPTIDEO NATRIURETICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301265",
+      "nome_padrao": "LDH (Desidrogenase lática)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "LDH",
+        "DESIDROGENASE LATICA",
+        "DESIDROGENASE LÁCTICA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301338",
+      "nome_padrao": "Amilase",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "AMILASE SERICA",
+        "AMILASE SÉRICA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301346",
+      "nome_padrao": "Lipase",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "LIPASE SERICA",
+        "LIPASE SÉRICA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301400",
+      "nome_padrao": "Gasometria arterial",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "GASOMETRIA",
+        "GASO",
+        "GASO ARTERIAL",
+        "GA",
+        "ABG"
+      ]
+    },
+    {
+      "codigo_tuss": "40301443",
+      "nome_padrao": "Lactato",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "LACTATO SERICO",
+        "LACTATO SÉRICO",
+        "ÁCIDO LÁCTICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40302024",
+      "nome_padrao": "Lipoproteína(a) - Lp(a)",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "LP(A)",
+        "LPA",
+        "LIPOPROTEINA A"
+      ]
+    },
+    {
+      "codigo_tuss": "40302032",
+      "nome_padrao": "Apolipoproteína A1",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "APO A1",
+        "APOA1",
+        "APOLIPOPROTEINA A"
+      ]
+    },
+    {
+      "codigo_tuss": "40302040",
+      "nome_padrao": "Apolipoproteína B",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "APO B",
+        "APOB",
+        "APOLIPOPROTEINA B"
+      ]
+    },
+    {
+      "codigo_tuss": "40302245",
+      "nome_padrao": "Homocisteína",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "HOMOCISTEINA",
+        "HOMOCISTEÍNA"
+      ]
+    },
+    {
+      "codigo_tuss": "40501020",
+      "nome_padrao": "Eletrocardiograma (ECG)",
+      "categoria": "Cardiologia",
+      "aliases": [
+        "ECG",
+        "ELETROCARDIOGRAMA",
+        "EKG",
+        "ECG REPOUSO",
+        "ECG 12 DERIVACOES"
+      ]
+    },
+    {
+      "codigo_tuss": "40101037",
+      "nome_padrao": "Teste ergométrico (esteira)",
+      "categoria": "Cardiologia",
+      "aliases": [
+        "TESTE ERGOMETRICO",
+        "TESTE ERGOMÉTRICO",
+        "TE",
+        "ESTEIRA",
+        "TESTE ESFORCO",
+        "TESTE DE ESFORÇO"
+      ]
+    },
+    {
+      "codigo_tuss": "20102020",
+      "nome_padrao": "Holter de 24 horas - 3 canais - digital",
+      "nome_comum": "Holter 24 horas",
+      "categoria": "Cardiologia",
+      "aliases": [
+        "HOLTER",
+        "HOLTER 24H",
+        "HOLTER 24 HORAS",
+        "MONITOR HOLTER",
+        "ECG HOLTER",
+        "ELETROCARDIOGRAMA HOLTER"
+      ]
+    },
+    {
+      "codigo_tuss": "20102038",
+      "nome_padrao": "MAPA (Monitorização ambulatorial da pressão arterial)",
+      "categoria": "Cardiologia",
+      "aliases": [
+        "MAPA",
+        "MAPA 24H",
+        "MAPA 24 HORAS",
+        "MONITOR PA"
+      ]
+    },
+    {
+      "codigo_tuss": "40901106",
+      "nome_padrao": "Ecodopplercardiograma transtorácico",
+      "nome_comum": "Ecocardiograma bidimensional com Doppler",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "ECOCARDIOGRAMA BIDIMENSIONAL",
+        "ECO BIDIMENSIONAL",
+        "ECOCARDIOGRAMA",
+        "ECO DOPPLER",
+        "ECODOPPLERCARDIOGRAMA",
+        "ECO",
+        "Ecocardiograma Bidimensional",
+        "ECOCARDIOGRAMA BIDIMENSIONAL MAPEAMENTO FLUXO A CORES",
+        "Ecocardiograma Bidimensional Mapeamento Fluxo a Cores",
+        "ECOCARDIOGRAMA COM DOPPLER",
+        "ECO TRANSTORACICO",
+        "ECOCARDIOGRAMA TRANSTORACICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40501071",
+      "nome_padrao": "Ecocardiograma transesofágico",
+      "categoria": "Cardiologia",
+      "aliases": [
+        "ECO TE",
+        "ETE",
+        "ECO TRANSESOFAGICO",
+        "ECOCARDIOGRAMA TRANSESOFAGICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40501080",
+      "nome_padrao": "Ecodoppler de carótidas e vertebrais",
+      "categoria": "Cardiologia",
+      "aliases": [
+        "ECO CAROTIDAS",
+        "ECODOPPLER CAROTIDAS",
+        "USG DOPPLER CERVICAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40901017",
+      "nome_padrao": "Radiografia de tórax (PA e perfil)",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX TORAX",
+        "RX TÓRAX",
+        "RADIOGRAFIA TORAX",
+        "RX PEITO",
+        "TÓRAX PA",
+        "TORAX PA PERFIL",
+        "RAIO X TORAX"
+      ]
+    },
+    {
+      "codigo_tuss": "40901025",
+      "nome_padrao": "Radiografia de abdome",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX ABDOME",
+        "RX ABDÔMEN",
+        "RADIOGRAFIA ABDOME",
+        "RAIO X ABDOME"
+      ]
+    },
+    {
+      "codigo_tuss": "40901033",
+      "nome_padrao": "Radiografia de coluna lombar",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX COLUNA LOMBAR",
+        "RX LOMBAR",
+        "RADIOGRAFIA LOMBAR",
+        "RAIO X LOMBAR"
+      ]
+    },
+    {
+      "codigo_tuss": "40901041",
+      "nome_padrao": "Radiografia de coluna cervical",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX COLUNA CERVICAL",
+        "RX CERVICAL",
+        "RADIOGRAFIA CERVICAL",
+        "RAIO X CERVICAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40901050",
+      "nome_padrao": "Radiografia de crânio",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX CRANIO",
+        "RX CRÂNIO",
+        "RADIOGRAFIA CRANIO",
+        "RAIO X CRANIO"
+      ]
+    },
+    {
+      "codigo_tuss": "40901068",
+      "nome_padrao": "Radiografia de seios da face",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX SEIOS FACE",
+        "RX SDF",
+        "RADIOGRAFIA SEIOS FACE",
+        "RAIO X FACE"
+      ]
+    },
+    {
+      "codigo_tuss": "40901076",
+      "nome_padrao": "Radiografia de mãos e punhos",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX MAOS",
+        "RX PUNHOS",
+        "RADIOGRAFIA MAOS",
+        "RAIO X MAO",
+        "IDADE OSSEA"
+      ]
+    },
+    {
+      "codigo_tuss": "40901084",
+      "nome_padrao": "Radiografia de joelho",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX JOELHO",
+        "RADIOGRAFIA JOELHO",
+        "RAIO X JOELHO"
+      ]
+    },
+    {
+      "codigo_tuss": "40901092",
+      "nome_padrao": "Radiografia de ombro",
+      "categoria": "Radiologia",
+      "aliases": [
+        "RX OMBRO",
+        "RADIOGRAFIA OMBRO",
+        "RAIO X OMBRO"
+      ]
+    },
+    {
+      "codigo_tuss": "40901100",
+      "nome_padrao": "Radiografia panorâmica de mandíbula",
+      "categoria": "Radiologia",
+      "aliases": [
+        "PANORAMICA",
+        "RX PANORAMICA",
+        "ORTOPANTOMOGRAFIA"
+      ]
+    },
+    {
+      "codigo_tuss": "41001010",
+      "nome_padrao": "Tomografia computadorizada de crânio",
+      "categoria": "Tomografia",
+      "aliases": [
+        "TC CRANIO",
+        "TC CRÂNIO",
+        "TOMO CRANIO",
+        "CT CRANIO",
+        "CT HEAD",
+        "TOMOGRAFIA CEREBRAL"
+      ]
+    },
+    {
+      "codigo_tuss": "41001028",
+      "nome_padrao": "Tomografia computadorizada de tórax",
+      "categoria": "Tomografia",
+      "aliases": [
+        "TC TORAX",
+        "TC TÓRAX",
+        "TOMO TORAX",
+        "CT TORAX",
+        "CT CHEST"
+      ]
+    },
+    {
+      "codigo_tuss": "41001036",
+      "nome_padrao": "Tomografia computadorizada de abdome",
+      "categoria": "Tomografia",
+      "aliases": [
+        "TC ABDOME",
+        "TC ABDÔMEN",
+        "TOMO ABDOME",
+        "CT ABDOME",
+        "CT ABD"
+      ]
+    },
+    {
+      "codigo_tuss": "41001044",
+      "nome_padrao": "Tomografia computadorizada de pelve",
+      "categoria": "Tomografia",
+      "aliases": [
+        "TC PELVE",
+        "TOMO PELVE",
+        "CT PELVE"
+      ]
+    },
+    {
+      "codigo_tuss": "41001052",
+      "nome_padrao": "Tomografia computadorizada de coluna lombar",
+      "categoria": "Tomografia",
+      "aliases": [
+        "TC LOMBAR",
+        "TC COLUNA LOMBAR",
+        "TOMO LOMBAR",
+        "CT LOMBAR"
+      ]
+    },
+    {
+      "codigo_tuss": "41001060",
+      "nome_padrao": "Tomografia computadorizada de coluna cervical",
+      "categoria": "Tomografia",
+      "aliases": [
+        "TC CERVICAL",
+        "TC COLUNA CERVICAL",
+        "TOMO CERVICAL",
+        "CT CERVICAL"
+      ]
+    },
+    {
+      "codigo_tuss": "41001079",
+      "nome_padrao": "Angiotomografia coronariana",
+      "categoria": "Tomografia",
+      "aliases": [
+        "ANGIOTOMO",
+        "ANGIOTC CORONARIAS",
+        "ANGIO TC CORAÇÃO",
+        "ANGIOTOMOGRAFIA"
+      ]
+    },
+    {
+      "codigo_tuss": "41001087",
+      "nome_padrao": "Escore de cálcio coronariano",
+      "categoria": "Tomografia",
+      "aliases": [
+        "ESCORE CALCIO",
+        "CALCIO CORONARIANO",
+        "CAC SCORE",
+        "CALCIUM SCORE"
+      ]
+    },
+    {
+      "codigo_tuss": "41101014",
+      "nome_padrao": "Ressonância magnética de crânio",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM CRANIO",
+        "RM CRÂNIO",
+        "RNM CRANIO",
+        "RESSONANCIA CEREBRAL",
+        "MRI BRAIN",
+        "RMN CRANIO"
+      ]
+    },
+    {
+      "codigo_tuss": "41101022",
+      "nome_padrao": "Ressonância magnética de coluna lombar",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM LOMBAR",
+        "RM COLUNA LOMBAR",
+        "RNM LOMBAR",
+        "RMN LOMBAR",
+        "MRI LOMBAR"
+      ]
+    },
+    {
+      "codigo_tuss": "41101030",
+      "nome_padrao": "Ressonância magnética de coluna cervical",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM CERVICAL",
+        "RM COLUNA CERVICAL",
+        "RNM CERVICAL",
+        "RMN CERVICAL"
+      ]
+    },
+    {
+      "codigo_tuss": "41101049",
+      "nome_padrao": "Ressonância magnética de joelho",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM JOELHO",
+        "RNM JOELHO",
+        "RMN JOELHO",
+        "MRI JOELHO"
+      ]
+    },
+    {
+      "codigo_tuss": "41101057",
+      "nome_padrao": "Ressonância magnética de ombro",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM OMBRO",
+        "RNM OMBRO",
+        "RMN OMBRO",
+        "MRI OMBRO"
+      ]
+    },
+    {
+      "codigo_tuss": "41101065",
+      "nome_padrao": "Ressonância magnética de abdome",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM ABDOME",
+        "RNM ABDOME",
+        "RMN ABDOME",
+        "MRI ABD"
+      ]
+    },
+    {
+      "codigo_tuss": "41101073",
+      "nome_padrao": "Ressonância magnética de pelve",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM PELVE",
+        "RNM PELVE",
+        "RMN PELVE",
+        "MRI PELVE"
+      ]
+    },
+    {
+      "codigo_tuss": "41101081",
+      "nome_padrao": "Ressonância magnética cardíaca",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM CARDIACA",
+        "RM CARDÍACA",
+        "RNM CORACAO",
+        "CARDIAC MRI"
+      ]
+    },
+    {
+      "codigo_tuss": "41101090",
+      "nome_padrao": "Ressonância magnética de mama (bilateral)",
+      "categoria": "Ressonância",
+      "aliases": [
+        "RM MAMA",
+        "RM MAMAS",
+        "RNM MAMA",
+        "MRI MAMA"
+      ]
+    },
+    {
+      "codigo_tuss": "40901122",
+      "nome_padrao": "Ultrassonografia de abdome total",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG ABDOME",
+        "USG ABDOME TOTAL",
+        "US ABDOME",
+        "ECOGRAFIA ABDOME",
+        "ULTRASSOM ABDOME",
+        "USG ABD TOTAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40901218",
+      "nome_padrao": "Ultrassonografia de abdome superior",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG ABDOME SUP",
+        "USG ABDOME SUPERIOR",
+        "US ABD SUPERIOR"
+      ]
+    },
+    {
+      "codigo_tuss": "40901226",
+      "nome_padrao": "Ultrassonografia de tireoide",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG TIREOIDE",
+        "USG TIREÓIDE",
+        "US TIREOIDE",
+        "ECO TIREOIDE",
+        "ULTRASSOM TIREOIDE"
+      ]
+    },
+    {
+      "codigo_tuss": "40901234",
+      "nome_padrao": "Ultrassonografia de mamas",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG MAMA",
+        "USG MAMAS",
+        "US MAMA",
+        "ECOGRAFIA MAMA",
+        "ULTRASSOM MAMA"
+      ]
+    },
+    {
+      "codigo_tuss": "40901242",
+      "nome_padrao": "Ultrassonografia pélvica (ginecológica)",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG PELVICA",
+        "USG PÉLVICA",
+        "US PELVE",
+        "USG GINECOLOGICA",
+        "ULTRASSOM PELVICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40901250",
+      "nome_padrao": "Ultrassonografia transvaginal",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG TV",
+        "USG TRANSVAGINAL",
+        "US TRANSVAGINAL",
+        "ULTRASSOM TV"
+      ]
+    },
+    {
+      "codigo_tuss": "40901269",
+      "nome_padrao": "Ultrassonografia de próstata (via abdominal)",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG PROSTATA",
+        "USG PRÓSTATA",
+        "US PROSTATA",
+        "ULTRASSOM PROSTATA"
+      ]
+    },
+    {
+      "codigo_tuss": "40901277",
+      "nome_padrao": "Ultrassonografia obstétrica",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG OB",
+        "USG OBSTETRICA",
+        "USG OBSTÉTRICA",
+        "US OBSTETRICO",
+        "ULTRASSOM GESTACIONAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40901285",
+      "nome_padrao": "Ultrassonografia obstétrica morfológica",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG MORFOLOGICA",
+        "USG MORFOLÓGICA",
+        "MORFOLOGICO",
+        "ULTRASSOM MORFOLOGICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40901293",
+      "nome_padrao": "Ultrassonografia de rins e vias urinárias",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG RINS",
+        "USG RENAL",
+        "US RINS",
+        "USG VIAS URINARIAS",
+        "ULTRASSOM RINS"
+      ]
+    },
+    {
+      "codigo_tuss": "40901301",
+      "nome_padrao": "Ultrassonografia de bolsa escrotal",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG ESCROTAL",
+        "USG TESTICULOS",
+        "US BOLSA ESCROTAL",
+        "ULTRASSOM ESCROTAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40901310",
+      "nome_padrao": "Ultrassonografia de partes moles",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG PARTES MOLES",
+        "US PARTES MOLES",
+        "USG PM"
+      ]
+    },
+    {
+      "codigo_tuss": "40901328",
+      "nome_padrao": "Ultrassonografia de ombro",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG OMBRO",
+        "US OMBRO",
+        "ULTRASSOM OMBRO"
+      ]
+    },
+    {
+      "codigo_tuss": "40901336",
+      "nome_padrao": "Ultrassonografia Doppler de membros inferiores (venoso)",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "DOPPLER MMII",
+        "DOPPLER VENOSO MMII",
+        "USG DOPPLER PERNAS",
+        "ECO DOPPLER MEMBROS INF"
+      ]
+    },
+    {
+      "codigo_tuss": "40901344",
+      "nome_padrao": "Ultrassonografia Doppler de membros inferiores (arterial)",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "DOPPLER ARTERIAL MMII",
+        "USG DOPPLER ARTERIAL PERNAS"
+      ]
+    },
+    {
+      "codigo_tuss": "40901352",
+      "nome_padrao": "Ultrassonografia Doppler de artérias renais",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "DOPPLER RENAL",
+        "USG DOPPLER RENAL",
+        "DOPPLER ARTERIAS RENAIS"
+      ]
+    },
+    {
+      "codigo_tuss": "40601013",
+      "nome_padrao": "Mamografia bilateral",
+      "categoria": "Mamografia",
+      "aliases": [
+        "MAMOGRAFIA",
+        "MMG",
+        "MAMOGRAFIA BILATERAL",
+        "MAMOGRAFIA DIGITAL"
+      ]
+    },
+    {
+      "codigo_tuss": "40601021",
+      "nome_padrao": "Tomossíntese mamária",
+      "categoria": "Mamografia",
+      "aliases": [
+        "TOMOSSINTESE",
+        "TOMOSSÍNTESE",
+        "TOMO MAMA",
+        "3D MAMA",
+        "MAMOGRAFIA 3D"
+      ]
+    },
+    {
+      "codigo_tuss": "40801012",
+      "nome_padrao": "Densitometria óssea (coluna e fêmur)",
+      "categoria": "Densitometria",
+      "aliases": [
+        "DENSITOMETRIA",
+        "DENSITOMETRIA OSSEA",
+        "DENSITOMETRIA ÓSSEA",
+        "DEXA",
+        "DXA",
+        "DMO"
+      ]
+    },
+    {
+      "codigo_tuss": "40201015",
+      "nome_padrao": "Endoscopia digestiva alta (EDA)",
+      "categoria": "Endoscopia",
+      "aliases": [
+        "EDA",
+        "ENDOSCOPIA",
+        "ENDOSCOPIA DIGESTIVA ALTA",
+        "ESOFAGOGASTRODUODENOSCOPIA",
+        "EGD"
+      ]
+    },
+    {
+      "codigo_tuss": "40201023",
+      "nome_padrao": "Colonoscopia",
+      "categoria": "Endoscopia",
+      "aliases": [
+        "COLONO",
+        "COLONOSCOPIA",
+        "VIDEOCOLONOSCOPIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40201031",
+      "nome_padrao": "Retossigmoidoscopia",
+      "categoria": "Endoscopia",
+      "aliases": [
+        "RETO",
+        "RETOSSIGMOIDOSCOPIA",
+        "RETOSSIGMOID"
+      ]
+    },
+    {
+      "codigo_tuss": "40201040",
+      "nome_padrao": "Broncoscopia",
+      "categoria": "Endoscopia",
+      "aliases": [
+        "BRONCO",
+        "BRONCOSCOPIA",
+        "FIBROBRONCOSCOPIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40201058",
+      "nome_padrao": "Laringoscopia",
+      "categoria": "Endoscopia",
+      "aliases": [
+        "LARINGO",
+        "LARINGOSCOPIA",
+        "VIDEOLARINGOSCOPIA",
+        "NASOLARINGOSCOPIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40201066",
+      "nome_padrao": "Cistoscopia",
+      "categoria": "Endoscopia",
+      "aliases": [
+        "CISTO",
+        "CISTOSCOPIA",
+        "VIDEOCISTOSCOPIA",
+        "URETROCISTOSCOPIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40401014",
+      "nome_padrao": "Espirometria",
+      "categoria": "Pneumologia",
+      "aliases": [
+        "ESPIROMETRIA",
+        "PROVA FUNCAO PULMONAR",
+        "PFP",
+        "PROVA FUNÇÃO PULMONAR"
+      ]
+    },
+    {
+      "codigo_tuss": "40401022",
+      "nome_padrao": "Polissonografia",
+      "categoria": "Pneumologia",
+      "aliases": [
+        "POLISSONOGRAFIA",
+        "PSG",
+        "EXAME DO SONO",
+        "ESTUDO DO SONO"
+      ]
+    },
+    {
+      "codigo_tuss": "40401030",
+      "nome_padrao": "Eletroencefalograma (EEG)",
+      "categoria": "Neurologia",
+      "aliases": [
+        "EEG",
+        "ELETROENCEFALOGRAMA",
+        "ELETROENCEFALO"
+      ]
+    },
+    {
+      "codigo_tuss": "40401049",
+      "nome_padrao": "Eletroneuromiografia (ENMG)",
+      "categoria": "Neurologia",
+      "aliases": [
+        "ENMG",
+        "ELETRONEUROMIOGRAFIA",
+        "ELETROMIOGRAFIA",
+        "EMG"
+      ]
+    },
+    {
+      "codigo_tuss": "40401057",
+      "nome_padrao": "Potencial evocado auditivo (BERA)",
+      "categoria": "Neurologia",
+      "aliases": [
+        "BERA",
+        "PEATE",
+        "POTENCIAL EVOCADO",
+        "POTENCIAL AUDITIVO"
+      ]
+    },
+    {
+      "codigo_tuss": "40701018",
+      "nome_padrao": "Cintilografia de tireoide",
+      "categoria": "Medicina Nuclear",
+      "aliases": [
+        "CINTILO TIREOIDE",
+        "CINTILOGRAFIA TIREOIDE",
+        "CINTI TIREOIDE"
+      ]
+    },
+    {
+      "codigo_tuss": "40701026",
+      "nome_padrao": "Cintilografia óssea",
+      "categoria": "Medicina Nuclear",
+      "aliases": [
+        "CINTILO OSSEA",
+        "CINTILOGRAFIA ÓSSEA",
+        "CINTI OSSEA",
+        "BONE SCAN"
+      ]
+    },
+    {
+      "codigo_tuss": "40701034",
+      "nome_padrao": "Cintilografia miocárdica",
+      "categoria": "Medicina Nuclear",
+      "aliases": [
+        "CINTILO MIOCARDICA",
+        "CINTILOGRAFIA MIOCÁRDICA",
+        "CINTI MIOCARDIO",
+        "CINTILO CARDIACA"
+      ]
+    },
+    {
+      "codigo_tuss": "40701042",
+      "nome_padrao": "PET-CT (Tomografia por emissão de pósitrons)",
+      "categoria": "Medicina Nuclear",
+      "aliases": [
+        "PET",
+        "PET-CT",
+        "PET CT",
+        "PET SCAN",
+        "PET/CT"
+      ]
+    },
+    {
+      "codigo_tuss": "40201074",
+      "nome_padrao": "Biópsia de pele",
+      "categoria": "Procedimentos",
+      "aliases": [
+        "BIOPSIA PELE",
+        "BIÓPSIA PELE",
+        "BX PELE",
+        "PUNCH"
+      ]
+    },
+    {
+      "codigo_tuss": "40201082",
+      "nome_padrao": "Biópsia de mama (core biopsy)",
+      "categoria": "Procedimentos",
+      "aliases": [
+        "BIOPSIA MAMA",
+        "BIÓPSIA MAMA",
+        "CORE BIOPSY MAMA",
+        "BX MAMA"
+      ]
+    },
+    {
+      "codigo_tuss": "40201090",
+      "nome_padrao": "PAAF (Punção aspirativa por agulha fina)",
+      "categoria": "Procedimentos",
+      "aliases": [
+        "PAAF",
+        "PUNCAO ASPIRATIVA",
+        "PUNÇÃO ASPIRATIVA",
+        "AGULHA FINA"
+      ]
+    },
+    {
+      "codigo_tuss": "40202017",
+      "nome_padrao": "Colposcopia",
+      "categoria": "Ginecologia",
+      "aliases": [
+        "COLPO",
+        "COLPOSCOPIA",
+        "VIDEOCOLPOSCOPIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40202025",
+      "nome_padrao": "Papanicolaou (citologia oncótica cervical)",
+      "categoria": "Ginecologia",
+      "aliases": [
+        "PAPA",
+        "PAPANICOLAOU",
+        "PREVENTIVO",
+        "CITOLOGIA ONCOTICA",
+        "CITOLOGIA ONCÓTICA"
+      ]
+    },
+    {
+      "codigo_tuss": "40202033",
+      "nome_padrao": "Histeroscopia diagnóstica",
+      "categoria": "Ginecologia",
+      "aliases": [
+        "HISTEROSCOPIA",
+        "HISTERO",
+        "HISTEROSCOPIA DX"
+      ]
+    },
+    {
+      "codigo_tuss": "40202041",
+      "nome_padrao": "Vulvoscopia",
+      "categoria": "Ginecologia",
+      "aliases": [
+        "VULVOSCOPIA"
+      ]
+    },
+    {
+      "codigo_tuss": "41201012",
+      "nome_padrao": "Audiometria tonal e vocal",
+      "categoria": "Otorrinolaringologia",
+      "aliases": [
+        "AUDIOMETRIA",
+        "AUDIO",
+        "AUDIOMETRIA TONAL"
+      ]
+    },
+    {
+      "codigo_tuss": "41201020",
+      "nome_padrao": "Impedanciometria (timpanometria)",
+      "categoria": "Otorrinolaringologia",
+      "aliases": [
+        "IMPEDANCIOMETRIA",
+        "TIMPANOMETRIA",
+        "IMITANCIOMETRIA"
+      ]
+    },
+    {
+      "codigo_tuss": "41301017",
+      "nome_padrao": "Campimetria computadorizada",
+      "categoria": "Oftalmologia",
+      "aliases": [
+        "CAMPIMETRIA",
+        "CAMPO VISUAL",
+        "CV",
+        "PERIMETRIA"
+      ]
+    },
+    {
+      "codigo_tuss": "41301025",
+      "nome_padrao": "Tonometria",
+      "categoria": "Oftalmologia",
+      "aliases": [
+        "TONOMETRIA",
+        "PRESSAO OCULAR",
+        "PRESSÃO OCULAR",
+        "PIO"
+      ]
+    },
+    {
+      "codigo_tuss": "41301033",
+      "nome_padrao": "Retinografia",
+      "categoria": "Oftalmologia",
+      "aliases": [
+        "RETINOGRAFIA",
+        "FOTO FUNDO OLHO",
+        "RETINO"
+      ]
+    },
+    {
+      "codigo_tuss": "41301041",
+      "nome_padrao": "OCT (Tomografia de coerência óptica)",
+      "categoria": "Oftalmologia",
+      "aliases": [
+        "OCT",
+        "OCT RETINA",
+        "OCT MACULA",
+        "TOMOGRAFIA COERENCIA OPTICA"
+      ]
+    },
+    {
+      "codigo_tuss": "41301050",
+      "nome_padrao": "Paquimetria",
+      "categoria": "Oftalmologia",
+      "aliases": [
+        "PAQUIMETRIA",
+        "PAQUI"
+      ]
+    },
+    {
+      "codigo_tuss": "41301068",
+      "nome_padrao": "Topografia de córnea",
+      "categoria": "Oftalmologia",
+      "aliases": [
+        "TOPOGRAFIA",
+        "CERATOSCOPIA",
+        "TOPOGRAFIA CORNEA",
+        "TOPO"
+      ]
+    },
+    {
+      "codigo_tuss": "41301076",
+      "nome_padrao": "Angiofluoresceinografia",
+      "categoria": "Oftalmologia",
+      "aliases": [
+        "ANGIOFLUORESCEINOGRAFIA",
+        "AFG",
+        "ANGIO RETINA",
+        "FLUORESCEINA"
+      ]
+    },
+    {
+      "codigo_tuss": "40301168",
+      "nome_padrao": "Tipagem sanguínea (ABO e Rh)",
+      "categoria": "Hematologia",
+      "aliases": [
+        "TIPAGEM",
+        "TIPO SANGUINEO",
+        "TIPO SANGUÍNEO",
+        "ABO RH",
+        "GRUPO SANGUINEO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301176",
+      "nome_padrao": "Coombs direto",
+      "categoria": "Hematologia",
+      "aliases": [
+        "COOMBS",
+        "COOMBS DIRETO",
+        "TAD",
+        "TESTE ANTIGLOBULINA DIRETO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301184",
+      "nome_padrao": "Coombs indireto",
+      "categoria": "Hematologia",
+      "aliases": [
+        "COOMBS IND",
+        "COOMBS INDIRETO",
+        "TAI",
+        "TESTE ANTIGLOBULINA INDIRETO"
+      ]
+    },
+    {
+      "codigo_tuss": "40301192",
+      "nome_padrao": "Eletroforese de hemoglobina",
+      "categoria": "Hematologia",
+      "aliases": [
+        "ELETROFORESE HB",
+        "ELETROFORESE HEMOGLOBINA",
+        "EFH"
+      ]
+    },
+    {
+      "codigo_tuss": "40301206",
+      "nome_padrao": "Eletroforese de proteínas",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "ELETROFORESE PROT",
+        "ELETROFORESE PROTEINAS",
+        "EPP",
+        "PROTEINOGRAMA"
+      ]
+    },
+    {
+      "codigo_tuss": "40306178",
+      "nome_padrao": "PCR para COVID-19 (RT-PCR SARS-CoV-2)",
+      "categoria": "Biologia Molecular",
+      "aliases": [
+        "PCR COVID",
+        "COVID PCR",
+        "RT-PCR COVID",
+        "SARS-COV-2 PCR",
+        "TESTE COVID PCR"
+      ]
+    },
+    {
+      "codigo_tuss": "40306186",
+      "nome_padrao": "Teste rápido COVID-19 (antígeno)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "TESTE RAPIDO COVID",
+        "ANTIGENO COVID",
+        "AG COVID",
+        "TR COVID"
+      ]
+    },
+    {
+      "codigo_tuss": "40306194",
+      "nome_padrao": "Sorologia para COVID-19 (IgG/IgM)",
+      "categoria": "Sorologia",
+      "aliases": [
+        "SOROLOGIA COVID",
+        "IGG COVID",
+        "IGM COVID",
+        "ANTICORPOS COVID"
+      ]
+    },
+    {
+      "codigo_tuss": "40306201",
+      "nome_padrao": "Cultura de secreções com antibiograma",
+      "categoria": "Microbiologia",
+      "aliases": [
+        "CULTURA",
+        "CULTURA SECRECAO",
+        "CULTURA + ANTIBIOGRAMA",
+        "TSA"
+      ]
+    },
+    {
+      "codigo_tuss": "40306210",
+      "nome_padrao": "Hemocultura",
+      "categoria": "Microbiologia",
+      "aliases": [
+        "HEMOCULTURA",
+        "CULTURA SANGUE",
+        "HC"
+      ]
+    },
+    {
+      "codigo_tuss": "40306228",
+      "nome_padrao": "Coprocultura",
+      "categoria": "Microbiologia",
+      "aliases": [
+        "COPROCULTURA",
+        "CULTURA FEZES"
+      ]
+    },
+    {
+      "codigo_tuss": "40306236",
+      "nome_padrao": "Swab nasal/orofaríngeo",
+      "categoria": "Microbiologia",
+      "aliases": [
+        "SWAB",
+        "SWAB NASAL",
+        "SWAB OROFARINGE",
+        "CULTURA OROFARINGE"
+      ]
+    },
+    {
+      "codigo_tuss": "40306244",
+      "nome_padrao": "Pesquisa de Streptococcus (teste rápido)",
+      "categoria": "Microbiologia",
+      "aliases": [
+        "STREPTO RAPIDO",
+        "TESTE RAPIDO STREPTO",
+        "STREP TEST"
+      ]
+    },
+    {
+      "codigo_tuss": "40304400",
+      "nome_padrao": "Complemento C3",
+      "categoria": "Imunologia",
+      "aliases": [
+        "C3",
+        "COMPLEMENTO C3"
+      ]
+    },
+    {
+      "codigo_tuss": "40304418",
+      "nome_padrao": "Complemento C4",
+      "categoria": "Imunologia",
+      "aliases": [
+        "C4",
+        "COMPLEMENTO C4"
+      ]
+    },
+    {
+      "codigo_tuss": "40304426",
+      "nome_padrao": "IgE total",
+      "categoria": "Imunologia",
+      "aliases": [
+        "IGE",
+        "IGE TOTAL",
+        "IMUNOGLOBULINA E"
+      ]
+    },
+    {
+      "codigo_tuss": "40304434",
+      "nome_padrao": "IgA (Imunoglobulina A)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "IGA",
+        "IGA TOTAL",
+        "IMUNOGLOBULINA A"
+      ]
+    },
+    {
+      "codigo_tuss": "40304442",
+      "nome_padrao": "IgG (Imunoglobulina G)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "IGG",
+        "IGG TOTAL",
+        "IMUNOGLOBULINA G"
+      ]
+    },
+    {
+      "codigo_tuss": "40304450",
+      "nome_padrao": "IgM (Imunoglobulina M)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "IGM",
+        "IGM TOTAL",
+        "IMUNOGLOBULINA M"
+      ]
+    },
+    {
+      "codigo_tuss": "40304469",
+      "nome_padrao": "Anti-TPO (Anticorpo anti-peroxidase tireoidiana)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "ANTI TPO",
+        "ANTI-TPO",
+        "ANTICORPO ANTI PEROXIDASE",
+        "ATPO"
+      ]
+    },
+    {
+      "codigo_tuss": "40304477",
+      "nome_padrao": "Anti-tireoglobulina",
+      "categoria": "Imunologia",
+      "aliases": [
+        "ANTI TG",
+        "ANTI-TG",
+        "ANTICORPO ANTI TIREOGLOBULINA",
+        "ATG"
+      ]
+    },
+    {
+      "codigo_tuss": "40304485",
+      "nome_padrao": "TRAb (Anticorpo anti-receptor de TSH)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "TRAB",
+        "ANTI RECEPTOR TSH",
+        "ANTICORPO ANTI TSH"
+      ]
+    },
+    {
+      "codigo_tuss": "40304493",
+      "nome_padrao": "Anti-DNA nativo (Anti-dsDNA)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "ANTI DNA",
+        "ANTI-DSDNA",
+        "ANTI DNA NATIVO"
+      ]
+    },
+    {
+      "codigo_tuss": "40304507",
+      "nome_padrao": "ANCA (Anticorpo anticitoplasma de neutrófilo)",
+      "categoria": "Imunologia",
+      "aliases": [
+        "ANCA",
+        "P-ANCA",
+        "C-ANCA",
+        "ANTI CITOPLASMA NEUTROFILO"
+      ]
+    },
+    {
+      "codigo_tuss": "40304515",
+      "nome_padrao": "Anti-transglutaminase IgA",
+      "categoria": "Imunologia",
+      "aliases": [
+        "ANTI TTG",
+        "ANTI TRANSGLUTAMINASE",
+        "TTG IGA",
+        "ANTI-TTG"
+      ]
+    },
+    {
+      "codigo_tuss": "40302091",
+      "nome_padrao": "Microalbuminúria",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "MICROALBUMINURIA",
+        "MICROALBUMINA",
+        "ALBUMINA URINARIA",
+        "RAC"
+      ]
+    },
+    {
+      "codigo_tuss": "40302105",
+      "nome_padrao": "Cistatina C",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "CISTATINA",
+        "CISTATINA C"
+      ]
+    },
+    {
+      "codigo_tuss": "40302113",
+      "nome_padrao": "Peptídeo C",
+      "categoria": "Bioquímica",
+      "aliases": [
+        "PEPTIDEO C",
+        "PEPTÍDEO C",
+        "C-PEPTIDE"
+      ]
+    },
+    {
+      "codigo_tuss": "40302121",
+      "nome_padrao": "Calcitonina",
+      "categoria": "Hormônios",
+      "aliases": [
+        "CALCITONINA"
+      ]
+    },
+    {
+      "codigo_tuss": "40302130",
+      "nome_padrao": "Aldosterona",
+      "categoria": "Hormônios",
+      "aliases": [
+        "ALDOSTERONA",
+        "ALDO"
+      ]
+    },
+    {
+      "codigo_tuss": "40302148",
+      "nome_padrao": "Renina",
+      "categoria": "Hormônios",
+      "aliases": [
+        "RENINA",
+        "ATIVIDADE RENINA PLASMATICA",
+        "ARP"
+      ]
+    },
+    {
+      "codigo_tuss": "40302156",
+      "nome_padrao": "Catecolaminas urinárias",
+      "categoria": "Hormônios",
+      "aliases": [
+        "CATECOLAMINAS",
+        "ADRENALINA URINA",
+        "NORADRENALINA URINA",
+        "CATECOL"
+      ]
+    },
+    {
+      "codigo_tuss": "40302164",
+      "nome_padrao": "Metanefrinas urinárias",
+      "categoria": "Hormônios",
+      "aliases": [
+        "METANEFRINAS",
+        "METANEFRINA URINARIA"
+      ]
+    },
+    {
+      "codigo_tuss": "40302172",
+      "nome_padrao": "17-Hidroxiprogesterona (17-OHP)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "17OHP",
+        "17-OHP",
+        "17 HIDROXIPROGESTERONA"
+      ]
+    },
+    {
+      "codigo_tuss": "40302180",
+      "nome_padrao": "Androstenediona",
+      "categoria": "Hormônios",
+      "aliases": [
+        "ANDROSTENEDIONA",
+        "A4"
+      ]
+    },
+    {
+      "codigo_tuss": "40302199",
+      "nome_padrao": "SHBG (Globulina ligadora de hormônios sexuais)",
+      "categoria": "Hormônios",
+      "aliases": [
+        "SHBG",
+        "GLOBULINA LIGADORA"
+      ]
+    },
+    {
+      "codigo_tuss": "41401018",
+      "nome_padrao": "Anatomopatológico (biópsia)",
+      "categoria": "Anatomia Patológica",
+      "aliases": [
+        "AP",
+        "ANATOMOPATOLOGICO",
+        "ANATOMOPATOLÓGICO",
+        "HISTOPATOLOGICO",
+        "HISTOPATOLÓGICO",
+        "BIOPSIA AP"
+      ]
+    },
+    {
+      "codigo_tuss": "41401026",
+      "nome_padrao": "Imunohistoquímica",
+      "categoria": "Anatomia Patológica",
+      "aliases": [
+        "IHQ",
+        "IMUNOHISTOQUIMICA",
+        "IMUNO-HISTOQUÍMICA"
+      ]
+    },
+    {
+      "codigo_tuss": "41401034",
+      "nome_padrao": "Citopatológico de líquidos",
+      "categoria": "Anatomia Patológica",
+      "aliases": [
+        "CITOLOGIA",
+        "CITOPATOLOGICO",
+        "CITOPATOLÓGICO"
+      ]
+    },
+    {
+      "codigo_tuss": "40901360",
+      "nome_padrao": "Doppler colorido de vasos cervicais arteriais bilateral (carótidas e vertebrais)",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG CAROTIDA VERTEBRAL DOPPLER COLOR",
+        "USG CAROTIDA + VERTEBRAL DOPPLER COLOR",
+        "USG CAROTIDAS E VERTEBRAIS",
+        "DOPPLER CAROTIDAS",
+        "DOPPLER DE CAROTIDAS",
+        "DOPPLER CAROTIDAS E VERTEBRAIS",
+        "USG CAROTIDA VERTEBRAL DOPPLER",
+        "Usg Carotida Vertebral Doppler Color",
+        "Usg Carotida + Vertebral Doppler Color",
+        "DOPPLER COLORIDO VASOS CERVICAIS",
+        "US CAROTIDAS VERTEBRAIS DOPPLER"
+      ],
+      "nome_comum": "Ultrassonografia de carótidas e vertebrais com Doppler"
+    },
+    {
+      "codigo_tuss": "40901750",
+      "nome_padrao": "US - Próstata (via abdominal)",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG PROSTATA BEXIGA VIA ABDOMINAL",
+        "USG PROSTATA-BEXIGA VIA ABDOMINAL",
+        "USG PROSTATA VIA ABDOMINAL",
+        "USG PROSTATA ABDOMINAL",
+        "ULTRASSONOGRAFIA DE PROSTATA VIA ABDOMINAL",
+        "Usg Prostata bexiga Via Abdominal",
+        "Usg Prostata-bexiga Via Abdominal",
+        "US PROSTATA VIA ABDOMINAL",
+        "USG PROSTATA E BEXIGA"
+      ],
+      "nome_comum": "Ultrassonografia de próstata (via abdominal)"
+    },
+    {
+      "codigo_tuss": "40901203",
+      "nome_padrao": "US - Órgãos superficiais (tireóide ou escroto ou pênis ou crânio)",
+      "nome_comum": "Ultrassonografia de tireoide com Doppler",
+      "categoria": "Ultrassonografia",
+      "aliases": [
+        "USG TIREOIDE C DOPPLER COLOR",
+        "USG TIREOIDE COM DOPPLER",
+        "USG TIREOIDE COM DOPPLER COLORIDO",
+        "ULTRASSONOGRAFIA DE TIREOIDE COM DOPPLER COLORIDO",
+        "Usg Tireoide c Doppler Color",
+        "USG ORGAOS SUPERFICIAIS TIREOIDE",
+        "US ORGAOS SUPERFICIAIS"
+      ]
+    },
+    {
+      "codigo_tuss": "40701069",
+      "nome_padrao": "Cintilografia do miocárdio perfusão - repouso",
+      "nome_comum": "Cintilografia de perfusão miocárdica",
+      "categoria": "Medicina Nuclear",
+      "aliases": [
+        "CINTILOGRAFIA MIOCARD PERF",
+        "CINTILOGRAFIA MIOCARD.PERF",
+        "CINTILOGRAFIA MIOCARDICA",
+        "CINTILOGRAFIA MIOCARDICA PERFUSAO",
+        "CINTILOGRAFIA DE PERFUSAO MIOCARDICA",
+        "Cintilografia Miocard.Perf",
+        "CINTILOGRAFIA MIOCARDIO",
+        "CINTILOGRAFIA PERFUSAO MIOCARDICA REPOUSO"
+      ]
+    },
+    {
+      "codigo_tuss": "40701140",
+      "nome_padrao": "Cintilografia do miocárdio perfusão - estresse físico",
+      "nome_comum": "Cintilografia miocárdica de perfusão com estresse",
+      "categoria": "Medicina Nuclear",
+      "aliases": [
+        "CINTILOGRAFIA MIOCARD PERF REPOUSO ESFORCO",
+        "CINTILOGRAFIA MIOCARDICA PERFUSAO ESFORCO",
+        "CINTILOGRAFIA MIOCARDIO ESTRESSE",
+        "Cintilografia Miocard Perf Repouso Esforco",
+        "CINTILOGRAFIA PERFUSAO MIOCARDICA ESTRESSE",
+        "CINTILOGRAFIA MIOCARDICA REPOUSO E ESFORCO"
+      ]
+    }
+  ]
+}

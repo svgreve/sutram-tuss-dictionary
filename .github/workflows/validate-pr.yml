@@ -1,0 +1,40 @@
+name: Validate PR
+
+on:
+  pull_request:
+    paths:
+      - 'tuss_dict.json'
+      - 'contrib/pending.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Validate dictionary schema
+        run: |
+          if [ -f tuss_dict.json ]; then
+            echo "Validando tuss_dict.json..."
+            python scripts/validate_dictionary.py tuss_dict.json
+          fi
+
+      - name: Validate pending contributions
+        run: |
+          if [ -f contrib/pending.json ]; then
+            echo "Validando contrib/pending.json..."
+            python -m json.tool contrib/pending.json > /dev/null
+            echo "✓ contrib/pending.json é um JSON válido"
+          fi
+
+      - name: Report validation results
+        if: always()
+        run: |
+          echo "Validação concluída"

@@ -1,0 +1,75 @@
+name: Sync ANS TUSS 22 Table
+
+on:
+  schedule:
+    # Run every Sunday at 2:00 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Build TUSS dictionary
+        run: |
+          python scripts/build_tuss_dict.py
+        continue-on-error: false
+
+      - name: Validate dictionary
+        run: |
+          python scripts/validate_dictionary.py tuss_dict.json
+        continue-on-error: false
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet tuss_dict.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: 'chore: sync TUSS 22 table from ANS'
+          title: 'chore: sync TUSS 22 table from ANS'
+          body: |
+            ## Sincronização Automática da TUSS 22
+
+            Este PR foi criado automaticamente pelo GitHub Actions com as mudanças detectadas na Tabela TUSS 22 da ANS.
+
+            ### Mudanças
+            - Atualização do dicionário TUSS baseado na tabela oficial da ANS
+            - Todos os dados foram validados e verificados
+
+            ### Validação
+            - [x] JSON válido
+            - [x] Campos obrigatórios presentes
+            - [x] Sem códigos duplicados
+            - [x] Sem aliases duplicados
+
+            ### Próximos Passos
+            1. Revisar as mudanças
+            2. Confirmar se estão corretas
+            3. Mesclar quando apropriado
+
+            ---
+            *Sincronização automática: $(date -u +'%Y-%m-%d %H:%M:%S UTC')*
+          branch: 'chore/sync-tuss-22'
+          delete-branch: true
