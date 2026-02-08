@@ -26,18 +26,18 @@ jobs:
 
       - name: Build TUSS dictionary
         run: |
-          python scripts/build_tuss_dict.py
+          python build_tuss_dict.py
         continue-on-error: false
 
       - name: Validate dictionary
         run: |
-          python scripts/validate_dictionary.py tuss_dict.json
+          python scripts/validate_dictionary.py tuss_exames_comuns.json
         continue-on-error: false
 
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet tuss_dict.json; then
+          if git diff --quiet tuss_exames_comuns.json; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
